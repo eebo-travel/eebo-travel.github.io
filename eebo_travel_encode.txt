@@ -1,0 +1,11 @@
+
+cwb-encode -c utf8 -v -x -d /corpora/data/eebotraveltest -F /Volumes/INTENSO/Corpora/EEBO_Travel/normalised/vrt -R /usr/local/share/cwb/registry/eebotraveltest -P lemma -P pos -P norm -P lang -S text:0+id+title+title_short+author+date+publisher+pubPlace -S p -S item -S hi:0+rend -S g:0+ref -S gap:0+reason+resp+extent - S pb:0+facs+rendition -S head -S expan -S div -S group -S front
+
+cwb-makeall -r /usr/local/share/cwb/registry/ eebotraveltest
+
+cwb-huffcode -r /usr/local/share/cwb/registry/ eebotraveltest
+cwb-compress-rdx -r /usr/local/share/cwb/registry/ eebotraveltest
+
+
+
+
