@@ -1,5 +1,5 @@
 library(tidyverse)
-
+library(stringr)
 
 
 # list files --------------------------------------------------------------
@@ -10,7 +10,7 @@ f2 <-list.files("../files/", full.names = T, pattern = "xml")[1:length(f)]
 # check that IDs are equal:
 # gsub(".*/|\\.vrt", "", f) == gsub(".*/", "", f2)
 
-for(fl in 212:length(f)) {
+for(fl in 310:length(f)) {
   
   
   # read data ---------------------------------------------------------------
@@ -62,8 +62,30 @@ for(fl in 212:length(f)) {
   # get edition statement & date
   es_s <- grep("<editionStmt>", h)
   es_e <- grep("</editionStmt>", h)
-  es <- h[es_s:es_e]
-  dates <- trimws(gsub("<.*?>", "", grep("<date", es, value = T)))
+  
+  if(length(es_s)>0) {
+    es <- h[es_s:es_e]
+    dates <- trimws(gsub("<.*?>", "", grep("<date", es, value = T)))
+    
+  } else {
+    # if no edition statement available,
+    # get date from publication statement
+    
+    # get publication statement in source description
+    sd_s <- grep("<sourceDesc>", t2)
+    sd_e <- grep("</sourceDesc>", t2)
+    sd <- t2[sd_s:sd_e]
+    
+    ps_start <-  grep("<publicationStmt>", sd)
+    ps_end   <- grep("</publicationStmt>", sd)
+    ps <- sd[ps_start:ps_end]
+    
+    dates <- trimws(gsub("<date>|</date>", "", grep("<date>", ps, value = T)))
+    
+    
+    
+  }
+  
   
   # get publication ID
   id <- gsub("\\..*", "", gsub(".*/", "", f[fl]))

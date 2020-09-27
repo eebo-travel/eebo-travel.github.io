@@ -1,0 +1,136 @@
+<html>
+
+<head>
+	<title>EEBO-Travel</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="../img/favicon.png">
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+body {
+	position: relative; 
+}
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#">EEBO-Travel</a>
+		  </div>
+		  <div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li><a href="#about">About</a></li>
+				<li><a href="#download">Download</a></li>
+				<li><a href="#ref">References</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			</div>
+		  </div>
+		</div>
+	  </nav>    
+
+<section class="wrapper wrapper-m-t" id="about" class="container-fluid">
+
+<h2 class="customized">About</h2>
+
+<h3>General info</h3>
+<img src="../img/rect2808.png" style="float:right;width:40%;height:50%">
+<p class="main">EEBO-Travel is a collection of travel reports from the first phase of <a href="https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/" target="_blank">Early English Books Online</a>, a collection of transliterated English prints available under a CC0 license (i.e., in the public domain). EEBO-Travel is currently work in progress. The version distributed here has been normalized using <a href="http://ucrel.lancs.ac.uk/vard/about/" target="_blank">VARD2</a> (Rayson & Baron 2008) and tagged using the <a href="https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/" target="_blank">TreeTagger</a> (Schmid 1994), both **without manual correction**. Please keep this in mind when using the corpus. </p>
+<p class="main">In the near future, we plan to manually correct the tagging of a small subset of the corpus that is balanced for different time spans and printing locations.</p>
+
+<h3>How to use the corpus</h3>
+
+<p class="main">The corpus files are distributed as VRT files for the [Corpus Workbench](http://cwb.sourceforge.net/). See the CWB website for installation instructions and tutorials. </p>
+
+<p class="main">To encode the VRT files for CWB, you can use the code below. Replace `/corpora/data/` and `/usr/local/share/cwb/registry/` by the paths to your data repository and registry, respectively, and replace `path/to/vrt` by the path to the folder containing the VRT files. Note that you will first have to create an empty folder named "eebotravel" in your data directory.</p>
+
+<div style="background:#ededdd;margin-right:50px;margin-left: 60px">
+<p class="code">cwb-encode -c utf8 -v -x -d /corpora/data/eebotravel -F path/to/vrt -R /usr/local/share/cwb/registry/eebotravel -P lemma -P pos -P norm -P lang -S text:0+id+title+title_short+author+date+publisher+pubPlace -S p -S item -S hi:0+rend -S g:0+ref -S gap:0+reason+resp+extent -S pb:0+facs+rendition -S head -S expan -S div:0+type -S group -S front -S desc -S abbr -S note:0+n+place -S cell:0+rows+role -S row -S argument -S closer -S signed -S q -S label -S floatingText:0+type+'xml:lang' -S salute -S choice -S opener -S speaker -S sp -S figDesc -S table:0+rend -S milestone:0+type+unit+n -S bibl -S postscript -S epigraph -S l:0+n -S list -S lg:0+n -S seg:0+rend+type -S am -S ex -S figure -S lb -S trailer:0+type -S date -S unclear -S add -S stage</p>
+
+<p class="code">cwb-makeall -r /usr/local/share/cwb/registry/ eebotravel</p>
+
+<p class="code">cwb-huffcode -r /usr/local/share/cwb/registry/ eebotravel</p>
+
+<p class="code">cwb-compress-rdx -r /usr/local/share/cwb/registry/ eebotravel</p>
+</div>
+
+
+</section>
+
+
+
+<section class="wrapper wrapper-m-t" id="download" class="container-fluid">
+<h2 class="customized2">Download</h2>
+<p class="main">The corpus can be downloaded <a href="#" target="_blank">here</a>.</p>
+
+</section>
+
+<section class="wrapper wrapper-m-t" id="ref" class="container-fluid">
+<h2 class="customized2">References</h2>
+
+<ul>
+	<li class="custom">bla</li>
+	<li class="custom">blubb</li>
+</ul>
+</section>
+
+<section class="wrapper wrapper-m-t" id="contact" class="container-fluid">
+<h2 class="customized2">Contact</h2>
+
+	<p class="main">This site is maintained by <a href="mailto:empirical.linguist@gmail.com">Stefan Hartmann</a> (University of Düsseldorf).</p>
+</section>
+
+
+
+
+<p class="bottom">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>.</p>
+<p class="bottom">The <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> library is used under the MIT license.</p>
+<p class="bottom">Our logo is based on two public domain images that can be found <a href="https://pixabay.com/vectors/books-reading-library-knowledge-2022463/">here</a> and <a href="https://pixabay.com/vectors/boat-marine-ocean-sailboat-sea-1297042/">here</a>.</p>
+
+<!-- script for automatic scrolling with Bootstrap scrollspy -->
+
+<script>
+	$(document).ready(function(){
+	  // Add scrollspy to <body>
+	  $('body').scrollspy({target: ".navbar", offset: 50});   
+	
+	  // Add smooth scrolling on all links inside the navbar
+	  $("#myNavbar a").on('click', function(event) {
+		// Make sure this.hash has a value before overriding default behavior
+		if (this.hash !== "") {
+		  // Prevent default anchor click behavior
+		  event.preventDefault();
+	
+		  // Store hash
+		  var hash = this.hash;
+	
+		  // Using jQuery's animate() method to add smooth page scroll
+		  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 800, function(){
+	   
+			// Add hash (#) to URL when done scrolling (default click behavior)
+			window.location.hash = hash;
+		  });
+		}  // End if
+	  });
+	});
+	</script>
+
+</body>
+
+</html>

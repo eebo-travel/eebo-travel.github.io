@@ -1,11 +1,11 @@
 
-cwb-encode -c utf8 -v -x -d /corpora/data/eebotraveltest -F /Volumes/INTENSO/Corpora/EEBO_Travel/normalised/vrt -R /usr/local/share/cwb/registry/eebotraveltest -P lemma -P pos -P norm -P lang -S text:0+id+title+title_short+author+date+publisher+pubPlace -S p -S item -S hi:0+rend -S g:0+ref -S gap:0+reason+resp+extent - S pb:0+facs+rendition -S head -S expan -S div -S group -S front
+cwb-encode -c utf8 -v -x -d /corpora/data/eebotravel -F /Volumes/INTENSO/Corpora/EEBO_Travel/normalised/vrt2 -R /usr/local/share/cwb/registry/eebotravel -P lemma -P pos -P norm -P lang -S text:0+id+title+title_short+author+date+publisher+pubPlace -S p -S item -S hi:0+rend -S g:0+ref -S gap:0+reason+resp+extent -S pb:0+facs+rendition -S head -S expan -S div:0+type -S group -S front -S desc -S abbr -S note:0+n+place -S cell:0+rows+role -S row -S argument -S closer -S signed -S q -S label -S floatingText:0+type+'xml:lang' -S salute -S choice -S opener -S speaker -S sp -S figDesc -S table:0+rend -S milestone:0+type+unit+n -S bibl -S postscript -S epigraph -S l:0+n -S list -S lg:0+n -S seg:0+rend+type -S am -S ex -S figure -S lb -S trailer:0+type -S date -S unclear -S add -S stage
 
-cwb-makeall -r /usr/local/share/cwb/registry/ eebotraveltest
-
-cwb-huffcode -r /usr/local/share/cwb/registry/ eebotraveltest
-cwb-compress-rdx -r /usr/local/share/cwb/registry/ eebotraveltest
-
+cwb-makeall -r /usr/local/share/cwb/registry/ eebotravel
+cwb-huffcode -r /usr/local/share/cwb/registry/ eebotravel
+cwb-compress-rdx -r /usr/local/share/cwb/registry/ eebotravel
 
 
 
+
+  Warning: additional arguments in command ignored: - S pb:0+facs+rendition -S head -S expan -S div:0+type -S group -S front -S desc -S abbr -S note:0+n+place -S cell:0+rows+role -S head -S row -S argument -S closer -S signed -S q -S label -S floatingText:0+type+xml:lang -S salute -S choice -S opener -S speaker -S sp -S figDesc -S table:0+rend -S milestone:0+type+unit+n -S bibl -S postscript -S epigraph
