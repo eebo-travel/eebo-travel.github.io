@@ -172,6 +172,13 @@ li.custom{
 	margin-top: 20px;
 }
 
+table {
+
+	table-layout:fixed;
+	width: 90% !important; 
+}
+
+
 table.dataTable {
 	margin-left: 60px !important;
 	margin-right: 50px !important;
