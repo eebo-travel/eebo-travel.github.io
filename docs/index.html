@@ -3,12 +3,14 @@
 <head>
 	<title>EEBO-Travel</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
 	<link rel="icon" href="https://raw.githubusercontent.com/eebo-travel/eebo-travel.github.io/master/img/favicon.png">
     <meta charset="UTF-8">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
 </head>
 
 <style>
@@ -47,7 +49,7 @@ body {
 <h2 class="customized">About</h2>
 
 <h3>General info</h3>
-<img src="https://raw.githubusercontent.com/eebo-travel/eebo-travel.github.io/master/img/rect2808.png" style="float:right;width:40%;height:50%">
+<img src="https://raw.githubusercontent.com/eebo-travel/eebo-travel.github.io/master/img/rect2808.png" style="float:right;width:400px;height:500px">
 <p class="main">EEBO-Travel is a collection of travel reports from the first phase of <a href="https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/" target="_blank">Early English Books Online</a>, a collection of transliterated English prints available under a CC0 license (i.e., in the public domain). EEBO-Travel is currently work in progress. The version distributed here has been normalized using <a href="http://ucrel.lancs.ac.uk/vard/about/" target="_blank">VARD2</a> (Rayson & Baron 2008) and tagged using the <a href="https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/" target="_blank">TreeTagger</a> (Schmid 1994), both **without manual correction**. Please keep this in mind when using the corpus. </p>
 <p class="main">In the near future, we plan to manually correct the tagging of a small subset of the corpus that is balanced for different time spans and printing locations.</p>
 
@@ -70,6 +72,2387 @@ body {
 
 <p class="code">cwb-compress-rdx -r /usr/local/share/cwb/registry/ eebotravel</p>
 </div>
+
+
+<h3>Text overview</h3>
+<br />
+<div id="overview_table_wrapper" style="margin-left: 60px; margin-right: 50px;">
+<table id="overview_table" class="display" style="width:90%;">
+	<thead>
+	 <tr>
+	  <th style="text-align:left;"> ID </th>
+	  <th style="text-align:left;"> Author </th>
+	  <th style="text-align:right;"> Date </th>
+	  <th style="text-align:right;"> Tokens </th>
+	 </tr>
+	</thead>
+   <tbody>
+	 <tr>
+	  <td style="text-align:left;"> A03319 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364.; Trevisa, John, d. 1402.; Caxton, William, ca. 1422-1491. </td>
+	  <td style="text-align:right;"> 1482 </td>
+	  <td style="text-align:right;"> 404883 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A06811 </td>
+	  <td style="text-align:left;"> Mandeville, John, Sir.; Jean, d&#39;Outremeuse, 1338-ca. 1399, attributed name. </td>
+	  <td style="text-align:right;"> 1496 </td>
+	  <td style="text-align:right;"> 44795 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A06812 </td>
+	  <td style="text-align:left;"> Mandeville, John, Sir.; Jean, d&#39;Outremeuse, 1338-ca. 1399, attributed name. </td>
+	  <td style="text-align:right;"> 1499 </td>
+	  <td style="text-align:right;"> 42925 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68181 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364.; Trevisa, John, d. 1402. </td>
+	  <td style="text-align:right;"> 1480 </td>
+	  <td style="text-align:right;"> 25604 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68182 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364.; Trevisa, John, d. 1402. </td>
+	  <td style="text-align:right;"> 1498 </td>
+	  <td style="text-align:right;"> 25727 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00005 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364. Polycronicon. English. Selections.; Trevisa, John, d. 1402. </td>
+	  <td style="text-align:right;"> 1515 </td>
+	  <td style="text-align:right;"> 493182 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00007 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364. Polycronicon. </td>
+	  <td style="text-align:right;"> 1528 </td>
+	  <td style="text-align:right;"> 500439 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A01828 </td>
+	  <td style="text-align:left;"> Góis, Damião de, 1502-1574.; More, John, fl. 1533. </td>
+	  <td style="text-align:right;"> 1533 </td>
+	  <td style="text-align:right;"> 9476 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A06814 </td>
+	  <td style="text-align:left;"> Mandeville, John, Sir.; Jean, d&#39;Outremeuse, 1338-ca. 1399, attributed name. </td>
+	  <td style="text-align:right;"> 1503 </td>
+	  <td style="text-align:right;"> 15709 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A23592 </td>
+	  <td style="text-align:left;"> Higden, Ranulf, d. 1364. Polycronicon. English. Selections.; Trevisa, Johncd. 1402. </td>
+	  <td style="text-align:right;"> 1502 </td>
+	  <td style="text-align:right;"> 494880 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00400 </td>
+	  <td style="text-align:left;"> Escalante, Bernardino de, 16th cent.; Frampton, John, fl. 1577-1596. </td>
+	  <td style="text-align:right;"> 1579 </td>
+	  <td style="text-align:right;"> 32195 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00611 </td>
+	  <td style="text-align:left;"> Federici, Cesare.; Hickock, Thomas. </td>
+	  <td style="text-align:right;"> 1588 </td>
+	  <td style="text-align:right;"> 34479 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A01864 </td>
+	  <td style="text-align:left;"> González de Mendoza, Juan, 1545-1618.; Parke, Robert, fl. 1588.; Loyola, Martín Ignacio de, d. 1606. </td>
+	  <td style="text-align:right;"> 1588 </td>
+	  <td style="text-align:right;"> 172121 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02495 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1599 </td>
+	  <td style="text-align:right;"> 3676362 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02794 </td>
+	  <td style="text-align:left;"> Hasleton, Richard.; Barley, William, d. 1614. </td>
+	  <td style="text-align:right;"> 1595 </td>
+	  <td style="text-align:right;"> 10899 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A03702 </td>
+	  <td style="text-align:left;"> Hortop, Job. </td>
+	  <td style="text-align:right;"> 1591 </td>
+	  <td style="text-align:right;"> 8275 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05059 </td>
+	  <td style="text-align:left;"> Adrichem, Christiaan van, 1533-1585.; Tymme, Thomas, d. 1620. </td>
+	  <td style="text-align:right;"> 1595 </td>
+	  <td style="text-align:right;"> 33547 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05576 </td>
+	  <td style="text-align:left;"> Lipsius, Justus, 1547-1606.; Lipsius, Justus, 1547-1606. Epistola de peregrinatione Italica.; Stradling, John, Sir, 1563-1637. </td>
+	  <td style="text-align:right;"> 1592 </td>
+	  <td style="text-align:right;"> 5571 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A06339 </td>
+	  <td style="text-align:left;"> Lopes, Duarte.; Pigafetta, Filippo, 1533-1604.; Hartwell, Abraham, b. 1553.; Rogers, William, b. ca. 1545, engraver. aut </td>
+	  <td style="text-align:right;"> 1597 </td>
+	  <td style="text-align:right;"> 62300 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07400 </td>
+	  <td style="text-align:left;"> Meyer, Albrecht, 1528-1603.; Jones, Philip, fl. 1589.; Ortelius, Abraham, 1527-1598. </td>
+	  <td style="text-align:right;"> 1589 </td>
+	  <td style="text-align:right;"> 6715 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07873 </td>
+	  <td style="text-align:left;"> Münster, Sebastian, 1489-1552.; Eden, Richard, 1521?-1576. </td>
+	  <td style="text-align:right;"> 1553 </td>
+	  <td style="text-align:right;"> 33160 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A08239 </td>
+	  <td style="text-align:left;"> Nicolay, Nicolas de, 1517-1583.; Washington, Thomas, fl. 1585.; Stell, John, fl. 1580. </td>
+	  <td style="text-align:right;"> 1585 </td>
+	  <td style="text-align:right;"> 79140 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A08307 </td>
+	  <td style="text-align:left;"> Norden, John, 1548-1625?; Kip, William, engraver. </td>
+	  <td style="text-align:right;"> 1598 </td>
+	  <td style="text-align:right;"> 11038 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A09829 </td>
+	  <td style="text-align:left;"> Polo, Marco, 1254-1323?; Frampton, John, fl. 1577-1596. </td>
+	  <td style="text-align:right;"> 1579 </td>
+	  <td style="text-align:right;"> 57285 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A11090 </td>
+	  <td style="text-align:left;"> Verstegan, Richard, ca. 1550-1640. </td>
+	  <td style="text-align:right;"> 1576 </td>
+	  <td style="text-align:right;"> 19665 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13665 </td>
+	  <td style="text-align:left;"> Thevet, André, 1502-1590.; Hacket, Thomas, fl. 1560-1590. </td>
+	  <td style="text-align:right;"> 1568 </td>
+	  <td style="text-align:right;"> 95968 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14275 </td>
+	  <td style="text-align:left;"> Vallans, William. </td>
+	  <td style="text-align:right;"> 1590 </td>
+	  <td style="text-align:right;"> 7366 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14850 </td>
+	  <td style="text-align:left;"> Webbe, Edward, b. 1553 or 4. </td>
+	  <td style="text-align:right;"> 1590 </td>
+	  <td style="text-align:right;"> 8438 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A18616 </td>
+	  <td style="text-align:left;"> Nicholas, Thomas, b. ca. 1532, attributed name. </td>
+	  <td style="text-align:right;"> 1577 </td>
+	  <td style="text-align:right;"> 1665 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A18769 </td>
+	  <td style="text-align:left;"> Churchyard, Thomas, 1520?-1604. </td>
+	  <td style="text-align:right;"> 1587 </td>
+	  <td style="text-align:right;"> 29865 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A20049 </td>
+	  <td style="text-align:left;"> Anghiera, Pietro Martire d&#39;, 1457-1526.; Eden, Richard, 1521?-1576.; Willes, Richard, fl. 1558-1573. </td>
+	  <td style="text-align:right;"> 1577 </td>
+	  <td style="text-align:right;"> 757505 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A21219 </td>
+	  <td style="text-align:left;"> Eliot, John.; Plancius, Petrus, d. 1622, cartographer.; Duetecum, Baptista, engraver. </td>
+	  <td style="text-align:right;"> 1592 </td>
+	  <td style="text-align:right;"> 28429 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68148 </td>
+	  <td style="text-align:left;"> Hawkins, John, Sir, 1532-1595. </td>
+	  <td style="text-align:right;"> 1569 </td>
+	  <td style="text-align:right;"> 4236 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68397 </td>
+	  <td style="text-align:left;"> Llwyd, Humphrey, 1527-1568.; Twyne, Thomas, 1543-1613. </td>
+	  <td style="text-align:right;"> 1573 </td>
+	  <td style="text-align:right;"> 36607 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68498 </td>
+	  <td style="text-align:left;"> González de Mendoza, Juan, 1545-1618.; Loyola, Marín Ignacio de, d. 1606. aut; Avanzi, Francesco. </td>
+	  <td style="text-align:right;"> 1587 </td>
+	  <td style="text-align:right;"> 6038 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00549 </td>
+	  <td style="text-align:left;"> Farewell, Christopher. </td>
+	  <td style="text-align:right;"> 1633 </td>
+	  <td style="text-align:right;"> 16218 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A00709 </td>
+	  <td style="text-align:left;"> Feynes, Henri de.; Loiseau de Tourval, Jean. </td>
+	  <td style="text-align:right;"> 1615 </td>
+	  <td style="text-align:right;"> 11901 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A01108 </td>
+	  <td style="text-align:left;"> Foxe, Luke, 1586-1635. </td>
+	  <td style="text-align:right;"> 1635 </td>
+	  <td style="text-align:right;"> 112492 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A01395 </td>
+	  <td style="text-align:left;"> Gainsford, Thomas, d. 1624? </td>
+	  <td style="text-align:right;"> 1618 </td>
+	  <td style="text-align:right;"> 187500 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A01867 </td>
+	  <td style="text-align:left;"> Goodall, Baptist. </td>
+	  <td style="text-align:right;"> 1630 </td>
+	  <td style="text-align:right;"> 22624 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02325 </td>
+	  <td style="text-align:left;"> Day, J., attributed name. </td>
+	  <td style="text-align:right;"> 1632 </td>
+	  <td style="text-align:right;"> 6362 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02578 </td>
+	  <td style="text-align:left;"> Hall, Joseph, 1574-1656. </td>
+	  <td style="text-align:right;"> 1617 </td>
+	  <td style="text-align:right;"> 15140 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02605 </td>
+	  <td style="text-align:left;"> Hamond, Walter, fl. 1643. </td>
+	  <td style="text-align:right;"> 1640 </td>
+	  <td style="text-align:right;"> 16423 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02626 </td>
+	  <td style="text-align:left;"> Harcourt, Robert, 1574?-1631. </td>
+	  <td style="text-align:right;"> 1613 </td>
+	  <td style="text-align:right;"> 25064 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A02826 </td>
+	  <td style="text-align:left;"> Hawkins, Richard, Sir, 1562?-1622. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 76859 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A03065 </td>
+	  <td style="text-align:left;"> Herbert, Thomas, Sir, 1606-1682.; Marshall, William, fl. 1617-1650, engraver. </td>
+	  <td style="text-align:right;"> 1634 </td>
+	  <td style="text-align:right;"> 87893 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A03330 </td>
+	  <td style="text-align:left;"> Higginson, Francis, 1587-1630.; Graves, Thomas, enginere. </td>
+	  <td style="text-align:right;"> 1630 </td>
+	  <td style="text-align:right;"> 5188 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A04494 </td>
+	  <td style="text-align:left;"> Jobson, Richard, fl. 1620-1623. </td>
+	  <td style="text-align:right;"> 1623 </td>
+	  <td style="text-align:right;"> 49022 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A04581 </td>
+	  <td style="text-align:left;"> Johnson, Robert, fl. 1586-1626. </td>
+	  <td style="text-align:right;"> 1609 </td>
+	  <td style="text-align:right;"> 11159 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05331 </td>
+	  <td style="text-align:left;"> Leo, Africanus, ca. 1492-ca. 1550.; Pory, John, 1572-1636. </td>
+	  <td style="text-align:right;"> 1600 </td>
+	  <td style="text-align:right;"> 240625 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05414 </td>
+	  <td style="text-align:left;"> Lewkenor, Samuel. </td>
+	  <td style="text-align:right;"> 1600 </td>
+	  <td style="text-align:right;"> 40381 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05594 </td>
+	  <td style="text-align:left;"> Lithgow, William, 1582-1645? </td>
+	  <td style="text-align:right;"> 1616 </td>
+	  <td style="text-align:right;"> 44381 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A05597 </td>
+	  <td style="text-align:left;"> Lithgow, William, 1582-1645? </td>
+	  <td style="text-align:right;"> 1640 </td>
+	  <td style="text-align:right;"> 153764 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A06473 </td>
+	  <td style="text-align:left;"> Lupton, Donald, d. 1676. </td>
+	  <td style="text-align:right;"> 1632 </td>
+	  <td style="text-align:right;"> 14439 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07165 </td>
+	  <td style="text-align:left;"> Cecil, Thomas, fl. 1630, engraver.; Maryland. aut </td>
+	  <td style="text-align:right;"> 1635 </td>
+	  <td style="text-align:right;"> 16020 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07216 </td>
+	  <td style="text-align:left;"> Mason, John, 1586-1635. </td>
+	  <td style="text-align:right;"> 1620 </td>
+	  <td style="text-align:right;"> 3570 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07619 </td>
+	  <td style="text-align:left;"> Monipennie, John. </td>
+	  <td style="text-align:right;"> 1612 </td>
+	  <td style="text-align:right;"> 40409 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07623 </td>
+	  <td style="text-align:left;"> Monipennie, John. </td>
+	  <td style="text-align:right;"> 1603 </td>
+	  <td style="text-align:right;"> 29511 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07792 </td>
+	  <td style="text-align:left;"> Morrell, William, fl. 1625. </td>
+	  <td style="text-align:right;"> 1625 </td>
+	  <td style="text-align:right;"> 6258 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07832 </td>
+	  <td style="text-align:left;"> Morton, Thomas, 1564-1659. </td>
+	  <td style="text-align:right;"> 1637 </td>
+	  <td style="text-align:right;"> 48621 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A07834 </td>
+	  <td style="text-align:left;"> Moryson, Fynes, 1566-1630. </td>
+	  <td style="text-align:right;"> 1617 </td>
+	  <td style="text-align:right;"> 676395 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A08258 </td>
+	  <td style="text-align:left;"> Nixon, Anthony. </td>
+	  <td style="text-align:right;"> 1607 </td>
+	  <td style="text-align:right;"> 17302 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A08874 </td>
+	  <td style="text-align:left;"> Palmer, Thomas, Sir, 1540-1626.; Zwinger, Theodor, 1533-1588. Methodus apodemica. </td>
+	  <td style="text-align:right;"> 1606 </td>
+	  <td style="text-align:right;"> 40871 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A10725 </td>
+	  <td style="text-align:left;"> Rich, Richard, fl. 1610. </td>
+	  <td style="text-align:right;"> 1610 </td>
+	  <td style="text-align:right;"> 1408 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A10859 </td>
+	  <td style="text-align:left;"> Robson, Charles, 1598-1638.; Vicars, Thomas, d. 1638. </td>
+	  <td style="text-align:right;"> 1628 </td>
+	  <td style="text-align:right;"> 4470 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A11082 </td>
+	  <td style="text-align:left;"> Rous, Francis, b. 1615. </td>
+	  <td style="text-align:right;"> 1637 </td>
+	  <td style="text-align:right;"> 59661 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A11767 </td>
+	  <td style="text-align:left;"> Scott, Edmund. </td>
+	  <td style="text-align:right;"> 1606 </td>
+	  <td style="text-align:right;"> 34735 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12119 </td>
+	  <td style="text-align:left;"> Sherley, Anthony, Sir, 1565-1635? </td>
+	  <td style="text-align:right;"> 1613 </td>
+	  <td style="text-align:right;"> 47253 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12458 </td>
+	  <td style="text-align:left;"> Smith, John, 1580-1631.; Pass, Simon van de, 1595?-1647, engraver. </td>
+	  <td style="text-align:right;"> 1631 </td>
+	  <td style="text-align:right;"> 15657 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12460 </td>
+	  <td style="text-align:left;"> Smith, John, 1580-1631.; Pass, Simon van de, 1595?-1647, engraver. </td>
+	  <td style="text-align:right;"> 1616 </td>
+	  <td style="text-align:right;"> 18783 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12461 </td>
+	  <td style="text-align:left;"> Smith, John, 1580-1631.; Barra, John, ca. 1574-1634, engraver. </td>
+	  <td style="text-align:right;"> 1624 </td>
+	  <td style="text-align:right;"> 174744 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12466 </td>
+	  <td style="text-align:left;"> Smith, John, 1580-1631.; Symonds, William, 1556-1616?; Abbay, Thomas.; Hole, William, d. 1624, engraver. </td>
+	  <td style="text-align:right;"> 1612 </td>
+	  <td style="text-align:right;"> 89428 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12471 </td>
+	  <td style="text-align:left;"> Smith, John, 1580-1631.; Cecil, Thomas, fl. 1630, engraver. </td>
+	  <td style="text-align:right;"> 1630 </td>
+	  <td style="text-align:right;"> 34207 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12598 </td>
+	  <td style="text-align:left;"> Somner, William, 1598-1669. </td>
+	  <td style="text-align:right;"> 1640 </td>
+	  <td style="text-align:right;"> 175214 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A12718 </td>
+	  <td style="text-align:left;"> Speed, John, 1552?-1629.; Keere, Pieter van den, ca. 1571-ca. 1624, engraver.; Camden, William, 1551-1623. Britannia. </td>
+	  <td style="text-align:right;"> 1627 </td>
+	  <td style="text-align:right;"> 95002 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13053 </td>
+	  <td style="text-align:left;"> Stow, John, 1525?-1605.; Munday, Anthony, 1553-1633. </td>
+	  <td style="text-align:right;"> 1633 </td>
+	  <td style="text-align:right;"> 1090760 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13478 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1623 </td>
+	  <td style="text-align:right;"> 9894 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13484 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1639 </td>
+	  <td style="text-align:right;"> 10547 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13485 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1618 </td>
+	  <td style="text-align:right;"> 15583 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13508 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1620 </td>
+	  <td style="text-align:right;"> 8023 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13513 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1617 </td>
+	  <td style="text-align:right;"> 10089 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13519 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 7684 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A13781 </td>
+	  <td style="text-align:left;"> Timberlake, Henry, d. 1626. </td>
+	  <td style="text-align:right;"> 1603 </td>
+	  <td style="text-align:right;"> 10914 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14203 </td>
+	  <td style="text-align:left;"> Underhill, John, d. 1672.; R. H., fl. 1638, engraver. </td>
+	  <td style="text-align:right;"> 1638 </td>
+	  <td style="text-align:right;"> 11456 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14325 </td>
+	  <td style="text-align:left;"> Venner, Tobias, 1577-1660. </td>
+	  <td style="text-align:right;"> 1628 </td>
+	  <td style="text-align:right;"> 8448 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14328 </td>
+	  <td style="text-align:left;"> Venner, Tobias, 1577-1660. </td>
+	  <td style="text-align:right;"> 1620 </td>
+	  <td style="text-align:right;"> 70144 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14591 </td>
+	  <td style="text-align:left;"> G. W., fl. 1600. </td>
+	  <td style="text-align:right;"> 1600 </td>
+	  <td style="text-align:right;"> 7456 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14605 </td>
+	  <td style="text-align:left;"> T. W. </td>
+	  <td style="text-align:right;"> 1615 </td>
+	  <td style="text-align:right;"> 706 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A14803 </td>
+	  <td style="text-align:left;"> Waterhouse, Edward, colonist.; Briggs, Henry, 1561-1630.; Virginia Company of London. Inconveniencies that have happened to some persons which have transported themselves from England to Virginia, without provisions necessary to sustaine themselves, hath greatly hindred the progresse of that noble plantation. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 14124 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A15050 </td>
+	  <td style="text-align:left;"> Whitaker, Alexander, 1585-1617.; Crashaw, William, 1572-1626.; Virginia Company of London.; Counseil for Virginia (England and Wales) </td>
+	  <td style="text-align:right;"> 1613 </td>
+	  <td style="text-align:right;"> 19438 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A15069 </td>
+	  <td style="text-align:left;"> Whitbourne, Richard, Sir, fl. 1579-1626. </td>
+	  <td style="text-align:right;"> 1620 </td>
+	  <td style="text-align:right;"> 24076 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A15072 </td>
+	  <td style="text-align:left;"> Whitbourne, Richard, Sir, fl. 1579-1626. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 14706 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A15589 </td>
+	  <td style="text-align:left;"> Winne, Edward. </td>
+	  <td style="text-align:right;"> 1621 </td>
+	  <td style="text-align:right;"> 2003 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A15685 </td>
+	  <td style="text-align:left;"> Wood, William, fl. 1629-1635. </td>
+	  <td style="text-align:right;"> 1634 </td>
+	  <td style="text-align:right;"> 38979 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A16711 </td>
+	  <td style="text-align:left;"> Brereton, John, 1572-ca. 1619.; Hayes, Edward, fl. 1602. </td>
+	  <td style="text-align:right;"> 1602 </td>
+	  <td style="text-align:right;"> 15091 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A17074 </td>
+	  <td style="text-align:left;"> Bruton, William. </td>
+	  <td style="text-align:right;"> 1638 </td>
+	  <td style="text-align:right;"> 9598 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A17832 </td>
+	  <td style="text-align:left;"> Camden, William, 1551-1623.; Holland, Philemon, 1552-1637. </td>
+	  <td style="text-align:right;"> 1637 </td>
+	  <td style="text-align:right;"> 728434 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A17848 </td>
+	  <td style="text-align:left;"> Camden, William, 1551-1623. </td>
+	  <td style="text-align:right;"> 1605 </td>
+	  <td style="text-align:right;"> 85682 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A17958 </td>
+	  <td style="text-align:left;"> Carew, Richard, 1555-1620. </td>
+	  <td style="text-align:right;"> 1602 </td>
+	  <td style="text-align:right;"> 83732 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A18071 </td>
+	  <td style="text-align:left;"> Cartwright, John, of Magdalen College, Oxford. </td>
+	  <td style="text-align:right;"> 1611 </td>
+	  <td style="text-align:right;"> 37927 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19381 </td>
+	  <td style="text-align:left;"> Coryate, Thomas, ca. 1577-1617.; Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1618 </td>
+	  <td style="text-align:right;"> 6861 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19384 </td>
+	  <td style="text-align:left;"> Coryate, Thomas, ca. 1577-1617. </td>
+	  <td style="text-align:right;"> 1616 </td>
+	  <td style="text-align:right;"> 9031 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19470 </td>
+	  <td style="text-align:left;"> Coverte, Robert. </td>
+	  <td style="text-align:right;"> 1612 </td>
+	  <td style="text-align:right;"> 22964 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19674 </td>
+	  <td style="text-align:left;"> Crowne, William. </td>
+	  <td style="text-align:right;"> 1637 </td>
+	  <td style="text-align:right;"> 19266 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19729 </td>
+	  <td style="text-align:left;"> Cushman, Robert, 1579?-1625. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 11336 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19774 </td>
+	  <td style="text-align:left;"> Dallington, Robert, 1561-1637. </td>
+	  <td style="text-align:right;"> 1605 </td>
+	  <td style="text-align:right;"> 27974 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19775 </td>
+	  <td style="text-align:left;"> Dallington, Robert, 1561-1637.; Michell, Francis, Sir, b. 1556. </td>
+	  <td style="text-align:right;"> 1604 </td>
+	  <td style="text-align:right;"> 49972 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A19936 </td>
+	  <td style="text-align:left;"> Davies, William, barber-surgion of London. </td>
+	  <td style="text-align:right;"> 1614 </td>
+	  <td style="text-align:right;"> 13189 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A20377 </td>
+	  <td style="text-align:left;"> Essex, Robert Devereux, Earl of, 1566-1601.; Sidney, Philip, Sir, 1554-1586. aut; Davison, William, 1541?-1608. aut </td>
+	  <td style="text-align:right;"> 1633 </td>
+	  <td style="text-align:right;"> 10512 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A20847 </td>
+	  <td style="text-align:left;"> Drayton, Michael, 1563-1631.; Hole, William, d. 1624, engraver.; Selden, John, 1584-1654. </td>
+	  <td style="text-align:right;"> 1612 </td>
+	  <td style="text-align:right;"> 152777 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A20849 </td>
+	  <td style="text-align:left;"> Drayton, Michael, 1563-1631. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 67922 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A22928 </td>
+	  <td style="text-align:left;"> Acosta, José de, 1540-1600.; Grimeston, Edward, attributed name. </td>
+	  <td style="text-align:right;"> 1604 </td>
+	  <td style="text-align:right;"> 186979 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A28809 </td>
+	  <td style="text-align:left;"> Boothby, Richard.; Lloyd, Francis. </td>
+	  <td style="text-align:right;"> 1647 </td>
+	  <td style="text-align:right;"> 34410 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30076 </td>
+	  <td style="text-align:left;"> Bullock, William, b. 1617? </td>
+	  <td style="text-align:right;"> 1649 </td>
+	  <td style="text-align:right;"> 22207 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31221 </td>
+	  <td style="text-align:left;"> Castell, William, d. 1645.; Rudyerd, Benjamin, Sir, 1572-1658. </td>
+	  <td style="text-align:right;"> 1644 </td>
+	  <td style="text-align:right;"> 38905 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A39792 </td>
+	  <td style="text-align:left;"> Fletcher, Giles, 1549?-1611. </td>
+	  <td style="text-align:right;"> 1643 </td>
+	  <td style="text-align:right;"> 49851 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A41427 </td>
+	  <td style="text-align:left;"> Gage, Thomas, 1603?-1656. </td>
+	  <td style="text-align:right;"> 1648 </td>
+	  <td style="text-align:right;"> 197337 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A44724 </td>
+	  <td style="text-align:left;"> Howell, James, 1594?-1666. </td>
+	  <td style="text-align:right;"> 1642 </td>
+	  <td style="text-align:right;"> 23792 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A45482 </td>
+	  <td style="text-align:left;"> Hamond, Walter, fl. 1643. </td>
+	  <td style="text-align:right;"> 1643 </td>
+	  <td style="text-align:right;"> 5776 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A48714 </td>
+	  <td style="text-align:left;"> Lithgow, William, 1582-1645? </td>
+	  <td style="text-align:right;"> 1643 </td>
+	  <td style="text-align:right;"> 7574 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A52629 </td>
+	  <td style="text-align:left;"> G. N., well-willer to the peace of both kingdoms. </td>
+	  <td style="text-align:right;"> 1642 </td>
+	  <td style="text-align:right;"> 32927 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A64213 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1648 </td>
+	  <td style="text-align:right;"> 3551 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A64216 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1649 </td>
+	  <td style="text-align:right;"> 6254 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A65782 </td>
+	  <td style="text-align:left;"> Wadsworth, James, 1604-1656? </td>
+	  <td style="text-align:right;"> 1641 </td>
+	  <td style="text-align:right;"> 29458 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68345 </td>
+	  <td style="text-align:left;"> Le Petit, Jean François, 1546-ca. 1615.; Grimeston, Edward. </td>
+	  <td style="text-align:right;"> 1609 </td>
+	  <td style="text-align:right;"> 72744 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68617 </td>
+	  <td style="text-align:left;"> Purchas, Samuel, 1577?-1626. </td>
+	  <td style="text-align:right;"> 1625 </td>
+	  <td style="text-align:right;"> 966080 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68764 </td>
+	  <td style="text-align:left;"> Speed, John, 1552?-1629.; Hondius, Jodocus, 1563-1612, engraver.; Schweitzer, Christoph, wood-engraver.; Camden, William, 1551-1623. Britannia. </td>
+	  <td style="text-align:right;"> 1612 </td>
+	  <td style="text-align:right;"> 2314875 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A68944 </td>
+	  <td style="text-align:left;"> Biddulph, William.; Lavender, Theophilus. </td>
+	  <td style="text-align:right;"> 1609 </td>
+	  <td style="text-align:right;"> 58025 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A70701 </td>
+	  <td style="text-align:left;"> Neale, Thomas, 1614-1646? </td>
+	  <td style="text-align:right;"> 1643 </td>
+	  <td style="text-align:right;"> 18335 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A71305 </td>
+	  <td style="text-align:left;"> Purchas, Samuel, 1577?-1626. </td>
+	  <td style="text-align:right;"> 1625 </td>
+	  <td style="text-align:right;"> 1168729 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A71306 </td>
+	  <td style="text-align:left;"> Purchas, Samuel, 1577?-1626. </td>
+	  <td style="text-align:right;"> 1625 </td>
+	  <td style="text-align:right;"> 900811 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A71307 </td>
+	  <td style="text-align:left;"> Purchas, Samuel, 1577?-1626. </td>
+	  <td style="text-align:right;"> 1625 </td>
+	  <td style="text-align:right;"> 1171327 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A92196 </td>
+	  <td style="text-align:left;"> Raymond, John, Gent.; Cross, Thomas, fl. 1632-1682, engraver. </td>
+	  <td style="text-align:right;"> 1648 </td>
+	  <td style="text-align:right;"> 35515 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A94946 </td>
+	  <td style="text-align:left;"> Headley, John. </td>
+	  <td style="text-align:right;"> 1646 </td>
+	  <td style="text-align:right;"> 1353 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A97346 </td>
+	  <td style="text-align:left;"> Drayton, Michael, 1563-1631.; Hole, William, d. 1624, engraver.; Selden, John, 1584-1654. </td>
+	  <td style="text-align:right;"> 1622 </td>
+	  <td style="text-align:right;"> 158959 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A24051 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1681 </td>
+	  <td style="text-align:right;"> 10983 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A25198 </td>
+	  <td style="text-align:left;"> Alsop, George, b. 1638. </td>
+	  <td style="text-align:right;"> 1666 </td>
+	  <td style="text-align:right;"> 19528 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A25996 </td>
+	  <td style="text-align:left;"> Amy, Thomas. </td>
+	  <td style="text-align:right;"> 1682 </td>
+	  <td style="text-align:right;"> 7233 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A26262 </td>
+	  <td style="text-align:left;"> Avril, Philippe, 1654-1698.; Hakluyt, Richard, 1552?-1616.; Purchas, Samuel, 1577?-1626. </td>
+	  <td style="text-align:right;"> 1693 </td>
+	  <td style="text-align:right;"> 83016 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A26310 </td>
+	  <td style="text-align:left;"> Acton, William. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 15135 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A26378 </td>
+	  <td style="text-align:left;"> Addison, Lancelot, 1632-1703. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 40045 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A26414 </td>
+	  <td style="text-align:left;"> Adis, Henry.; Willoughby of Parham, Francis Willoughby, Baron, 1613?-1666. </td>
+	  <td style="text-align:right;"> 1664 </td>
+	  <td style="text-align:right;"> 1807 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A27515 </td>
+	  <td style="text-align:left;"> Bernier, François, 1620-1688.; Oldenburg, Henry, 1615?-1677. </td>
+	  <td style="text-align:right;"> 1676 </td>
+	  <td style="text-align:right;"> 130838 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A28352 </td>
+	  <td style="text-align:left;"> Bland, Edward, d. 1653.; Woode, Abraham.; Brewster, Sackford.; Pennant, Elias. </td>
+	  <td style="text-align:right;"> 1651 </td>
+	  <td style="text-align:right;"> 5554 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A28392 </td>
+	  <td style="text-align:left;"> Blome, Richard, d. 1705.; Lynch, Thomas, Sir, d. 1684? </td>
+	  <td style="text-align:right;"> 1672 </td>
+	  <td style="text-align:right;"> 20614 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A28496 </td>
+	  <td style="text-align:left;"> Boate, Gerard, 1604-1650.; Hartlib, Samuel, d. 1662. </td>
+	  <td style="text-align:right;"> 1657 </td>
+	  <td style="text-align:right;"> 52948 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29216 </td>
+	  <td style="text-align:left;"> Brand, Adam, d. 1713.; Ludolf, Heinrich Wilhelm, 1655-1710. Curious observations concerning the products of Russia. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 55076 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29331 </td>
+	  <td style="text-align:left;"> Brett, Samuel. </td>
+	  <td style="text-align:right;"> 1655 </td>
+	  <td style="text-align:right;"> 4548 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29361 </td>
+	  <td style="text-align:left;"> Brice, Germain, 1652-1727. </td>
+	  <td style="text-align:right;"> 1687 </td>
+	  <td style="text-align:right;"> 94061 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29627 </td>
+	  <td style="text-align:left;"> Brome, James, d. 1719.; D. J. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 32625 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29826 </td>
+	  <td style="text-align:left;"> Brown, Edward, 1644-1708. </td>
+	  <td style="text-align:right;"> 1685 </td>
+	  <td style="text-align:right;"> 120137 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29924 </td>
+	  <td style="text-align:left;"> Brunel, Antoine de, 1622-1696.; Aerssen, François van, 1630-1658. </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 66831 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29941 </td>
+	  <td style="text-align:left;"> Brydall, John, b. 1635? </td>
+	  <td style="text-align:right;"> 1676 </td>
+	  <td style="text-align:right;"> 21582 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30215 </td>
+	  <td style="text-align:left;"> Burbury, John.; Norfolk, Henry Howard, Duke of, 1628-1684. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 25618 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30320 </td>
+	  <td style="text-align:left;"> Burnet, Gilbert, 1643-1715. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 9868 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30463 </td>
+	  <td style="text-align:left;"> Burnet, Gilbert, 1643-1715. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 97126 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30473 </td>
+	  <td style="text-align:left;"> Burnet, Gilbert, 1643-1715. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 50778 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30685 </td>
+	  <td style="text-align:left;"> Busbecq, Ogier Ghislain de, 1522-1592.; Tate, Nahum, 1652-1715. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 108454 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30860 </td>
+	  <td style="text-align:left;"> Baratti, Giacomo.; G. D.; Góis, Damião de, 1502-1574.; Scaliger, Joseph Juste, 1540-1609. </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 32140 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31044 </td>
+	  <td style="text-align:left;"> Barri, Giacomo, ca. 1630-ca. 1690.; Lodge, William, 1649-1689. </td>
+	  <td style="text-align:right;"> 1679 </td>
+	  <td style="text-align:right;"> 23140 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31570 </td>
+	  <td style="text-align:left;"> Chamberlayne, Edward, 1616-1703. </td>
+	  <td style="text-align:right;"> 1669 </td>
+	  <td style="text-align:right;"> 56300 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31596 </td>
+	  <td style="text-align:left;"> Chamberlayne, Edward, 1616-1703.; Petty, William, Sir, 1623-1687. England&#39;s guide to industry.; J. S. </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 274243 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31599 </td>
+	  <td style="text-align:left;"> Chamberlayne, Edward, 1616-1703. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 59494 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31676 </td>
+	  <td style="text-align:left;"> Chapman, Henry, fl. 1673. </td>
+	  <td style="text-align:right;"> 1673 </td>
+	  <td style="text-align:right;"> 5446 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A31753 </td>
+	  <td style="text-align:left;"> Chardin, John, Sir, 1643-1713. </td>
+	  <td style="text-align:right;"> 1686 </td>
+	  <td style="text-align:right;"> 465614 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A32752 </td>
+	  <td style="text-align:left;"> Chaumont, Alexandre, chevalier de, d. 1710. </td>
+	  <td style="text-align:right;"> 1687 </td>
+	  <td style="text-align:right;"> 26819 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A32776 </td>
+	  <td style="text-align:left;"> Camden, William, 1551-1623.; Dalrymple, James, Sir, fl. 1714. </td>
+	  <td style="text-align:right;"> 1695 </td>
+	  <td style="text-align:right;"> 48607 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A33302 </td>
+	  <td style="text-align:left;"> Clarke, Samuel, 1599-1682. </td>
+	  <td style="text-align:right;"> 1672 </td>
+	  <td style="text-align:right;"> 17868 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A33311 </td>
+	  <td style="text-align:left;"> Clarke, Samuel, 1599-1682.; Gaywood, Richard, fl. 1650-1680. </td>
+	  <td style="text-align:right;"> 1657 </td>
+	  <td style="text-align:right;"> 113124 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A33345 </td>
+	  <td style="text-align:left;"> Clarke, Samuel, 1599-1682. </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 61719 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A34008 </td>
+	  <td style="text-align:left;"> Collins, Samuel, 1619-1670. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 26817 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A34454 </td>
+	  <td style="text-align:left;"> Caron, François, 1600-1673.; Schouten, Joost.; Manley, Roger, Sir, 1626?-1688. </td>
+	  <td style="text-align:right;"> 1663 </td>
+	  <td style="text-align:right;"> 31776 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A34614 </td>
+	  <td style="text-align:left;"> Carr, William, 17th cent. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 33742 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A34622 </td>
+	  <td style="text-align:left;"> Carr, William, 17th cent.; E. T. </td>
+	  <td style="text-align:right;"> 1695 </td>
+	  <td style="text-align:right;"> 34143 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A35310 </td>
+	  <td style="text-align:left;"> Crull, J. (Jodocus), d. 1713? </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 168013 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A35692 </td>
+	  <td style="text-align:left;"> Denton, Daniel. </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 6290 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A35757 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1685 </td>
+	  <td style="text-align:right;"> 2250 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A36106 </td>
+	  <td style="text-align:left;"> Dampier, William, 1652-1715. </td>
+	  <td style="text-align:right;"> 1697 </td>
+	  <td style="text-align:right;"> 728438 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A36730 </td>
+	  <td style="text-align:left;"> Montanus, Arnoldus, 1625?-1683.; Dapper, Olfert, 1639-1689.; Ogilby, John, 1600-1676.; Nederlandsche Oost-Indische Compagnie.; United Provinces of the Netherlands. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 322698 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A36791 </td>
+	  <td style="text-align:left;"> Dugdale, William, Sir, 1605-1686. </td>
+	  <td style="text-align:right;"> 1656 </td>
+	  <td style="text-align:right;"> 850511 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A36827 </td>
+	  <td style="text-align:left;"> Dumont, Jean, baron de Carlscroon, 1667-1727. </td>
+	  <td style="text-align:right;"> 1696 </td>
+	  <td style="text-align:right;"> 135654 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A36936 </td>
+	  <td style="text-align:left;"> Du Quesne, Abraham, ca. 1653-1724.; Le Maire, Jacques-Joseph. Voyages du sieur Le Maire aux isles Canaries. English. </td>
+	  <td style="text-align:right;"> 1696 </td>
+	  <td style="text-align:right;"> 56193 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A37317 </td>
+	  <td style="text-align:left;"> Debes, Lucas Jacobsen, 1623-1675.; Sterpin, Jean. </td>
+	  <td style="text-align:right;"> 1676 </td>
+	  <td style="text-align:right;"> 70594 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A37432 </td>
+	  <td style="text-align:left;"> Drake, Francis, Sir, d. 1637. World encompassed by Sir Francis Drake.; Nichols, Philip.; Fletcher, Francis, 16th cent.; Bigges, Walter, d. 1586.; R. D. </td>
+	  <td style="text-align:right;"> 1653 </td>
+	  <td style="text-align:right;"> 171300 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A37731 </td>
+	  <td style="text-align:left;"> Echard, Laurence, 1670?-1730. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 27441 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A37736 </td>
+	  <td style="text-align:left;"> Echard, Laurence, 1670?-1730. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 16312 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A39724 </td>
+	  <td style="text-align:left;"> Flecknoe, Richard, d. 1678? </td>
+	  <td style="text-align:right;"> 1656 </td>
+	  <td style="text-align:right;"> 38456 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40108 </td>
+	  <td style="text-align:left;"> Fowler, Robert, of the town of Burlington in Yorkshire. </td>
+	  <td style="text-align:right;"> 1659 </td>
+	  <td style="text-align:right;"> 1944 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40385 </td>
+	  <td style="text-align:left;"> Franck, Richard, 1624?-1708. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 86380 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40503 </td>
+	  <td style="text-align:left;"> Froger, François, b. 1676. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 35402 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40522 </td>
+	  <td style="text-align:left;"> Fryer, John, d. 1733. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 240239 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40672 </td>
+	  <td style="text-align:left;"> Fuller, Thomas, 1608-1661.; Fuller, John, b. 1640 or 41. </td>
+	  <td style="text-align:right;"> 1662 </td>
+	  <td style="text-align:right;"> 1358419 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40681 </td>
+	  <td style="text-align:left;"> Fuller, Thomas, 1608-1661. </td>
+	  <td style="text-align:right;"> 1650 </td>
+	  <td style="text-align:right;"> 292991 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A41077 </td>
+	  <td style="text-align:left;"> Felltham, Owen, 1602?-1668.; Weldon, Anthony, Sir, d. 1649? Perfect description of the people and countrey of Scotland. </td>
+	  <td style="text-align:right;"> 1672 </td>
+	  <td style="text-align:right;"> 23132 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A41079 </td>
+	  <td style="text-align:left;"> Felltham, Owen, 1602?-1668. </td>
+	  <td style="text-align:right;"> 1652 </td>
+	  <td style="text-align:right;"> 9384 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A41087 </td>
+	  <td style="text-align:left;"> Felltham, Owen, 1602?-1668.; Ward, Edward, 1667-1731. </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 9208 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A41360 </td>
+	  <td style="text-align:left;"> E. G., Serjeant at Arms. </td>
+	  <td style="text-align:right;"> 1668 </td>
+	  <td style="text-align:right;"> 1777 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42086 </td>
+	  <td style="text-align:left;"> Grelot, Guillaume-Joseph, b. ca. 1630.; Phillips, John, 1631-1706. </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 75751 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42314 </td>
+	  <td style="text-align:left;"> Gardyner, George. </td>
+	  <td style="text-align:right;"> 1651 </td>
+	  <td style="text-align:right;"> 25619 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42517 </td>
+	  <td style="text-align:left;"> Gabin, Antonio, fl. 1726. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 83849 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42631 </td>
+	  <td style="text-align:left;"> Geōrgarinēs, Iōsēph, 17th cent.; Denton, Henry, 1633?-1681. </td>
+	  <td style="text-align:right;"> 1678 </td>
+	  <td style="text-align:right;"> 20448 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42641 </td>
+	  <td style="text-align:left;"> Gerbier, Balthazar, Sir, 1592?-1667. </td>
+	  <td style="text-align:right;"> 1665 </td>
+	  <td style="text-align:right;"> 23044 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A42798 </td>
+	  <td style="text-align:left;"> Glanius, Mr. </td>
+	  <td style="text-align:right;"> 1682 </td>
+	  <td style="text-align:right;"> 38036 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A43326 </td>
+	  <td style="text-align:left;"> Hennepin, Louis, 17th cent.; La Salle, Robert Cavelier, sieur de, 1643-1687.; Joliet, Louis, 1645-1700.; Marquette, Jacques, 1637-1675. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 333246 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A43533 </td>
+	  <td style="text-align:left;"> Heylyn, Peter, 1600-1662. </td>
+	  <td style="text-align:right;"> 1656 </td>
+	  <td style="text-align:right;"> 96979 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A43535 </td>
+	  <td style="text-align:left;"> Heylyn, Peter, 1600-1662. </td>
+	  <td style="text-align:right;"> 1656 </td>
+	  <td style="text-align:right;"> 314236 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A43553 </td>
+	  <td style="text-align:left;"> Heylyn, Peter, 1600-1662. </td>
+	  <td style="text-align:right;"> 1656 </td>
+	  <td style="text-align:right;"> 297935 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A43838 </td>
+	  <td style="text-align:left;"> Hilton, William, d. 1675.; Long, Anthony.; Fabian, Peter. </td>
+	  <td style="text-align:right;"> 1664 </td>
+	  <td style="text-align:right;"> 8785 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A44716 </td>
+	  <td style="text-align:left;"> Howell, James, 1594?-1666. </td>
+	  <td style="text-align:right;"> 1650 </td>
+	  <td style="text-align:right;"> 388868 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A44731 </td>
+	  <td style="text-align:left;"> Howell, James, 1594?-1666.; Stow, John, 1525?-1605. Survey of London. </td>
+	  <td style="text-align:right;"> 1657 </td>
+	  <td style="text-align:right;"> 142060 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A44732 </td>
+	  <td style="text-align:left;"> Howell, James, 1594?-1666. </td>
+	  <td style="text-align:right;"> 1657 </td>
+	  <td style="text-align:right;"> 142393 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A45314 </td>
+	  <td style="text-align:left;"> Hall, Joseph, 1574-1656. </td>
+	  <td style="text-align:right;"> 1674 </td>
+	  <td style="text-align:right;"> 1591 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A45662 </td>
+	  <td style="text-align:left;"> Harris, Walter, 1647-1732. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 22423 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A46308 </td>
+	  <td style="text-align:left;"> English officer who was there during the last campaign. </td>
+	  <td style="text-align:right;"> 1690 </td>
+	  <td style="text-align:right;"> 9616 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A46390 </td>
+	  <td style="text-align:left;"> Jamaica.; Hanson, Francis. </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 40709 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A47358 </td>
+	  <td style="text-align:left;"> Kilburne, Richard, 1605-1678. </td>
+	  <td style="text-align:right;"> 1659 </td>
+	  <td style="text-align:right;"> 107218 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A47431 </td>
+	  <td style="text-align:left;"> King, William, 1663-1712. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 40140 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A47586 </td>
+	  <td style="text-align:left;"> Knox, Robert, 1640?-1720. </td>
+	  <td style="text-align:right;"> 1681 </td>
+	  <td style="text-align:right;"> 125721 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A48368 </td>
+	  <td style="text-align:left;"> Lhuyd, Edward, 1660-1709. </td>
+	  <td style="text-align:right;"> 1697 </td>
+	  <td style="text-align:right;"> 2041 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A48447 </td>
+	  <td style="text-align:left;"> Ligon, Richard. </td>
+	  <td style="text-align:right;"> 1657 </td>
+	  <td style="text-align:right;"> 79765 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A49472 </td>
+	  <td style="text-align:left;"> Lupton, Donald, d. 1676. </td>
+	  <td style="text-align:right;"> 1658 </td>
+	  <td style="text-align:right;"> 3620 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A49620 </td>
+	  <td style="text-align:left;"> Lassels, Richard, 1603?-1668.; S. W. (Simon Wilson) </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 129219 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A49689 </td>
+	  <td style="text-align:left;"> English gentleman, attending the court of the King of Great Britain. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 8661 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A49883 </td>
+	  <td style="text-align:left;"> Leblanc, Vincent, 1554-ca. 1640.; Brooke, Francis. </td>
+	  <td style="text-align:right;"> 1660 </td>
+	  <td style="text-align:right;"> 201657 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A49911 </td>
+	  <td style="text-align:left;"> Le Comte, Louis, 1655-1728. </td>
+	  <td style="text-align:right;"> 1697 </td>
+	  <td style="text-align:right;"> 178595 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A50610 </td>
+	  <td style="text-align:left;"> Pinto, Fernão Mendes, d. 1583.; Cogan, Henry. </td>
+	  <td style="text-align:right;"> 1653 </td>
+	  <td style="text-align:right;"> 292843 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A50886 </td>
+	  <td style="text-align:left;"> Milton, John, 1608-1674. </td>
+	  <td style="text-align:right;"> 1682 </td>
+	  <td style="text-align:right;"> 15141 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A51114 </td>
+	  <td style="text-align:left;"> Molesworth, Robert Molesworth, Viscount, 1656-1725. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 53985 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A51116 </td>
+	  <td style="text-align:left;"> Molesworth, Robert Molesworth, Viscount, 1656-1725. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 58350 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A51134 </td>
+	  <td style="text-align:left;"> Molyneux, William, 1656-1698. </td>
+	  <td style="text-align:right;"> 1682 </td>
+	  <td style="text-align:right;"> 515 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A51176 </td>
+	  <td style="text-align:left;"> Magalhães, Gabriel de, 1609-1677. </td>
+	  <td style="text-align:right;"> 1688 </td>
+	  <td style="text-align:right;"> 96714 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A51759 </td>
+	  <td style="text-align:left;"> Mandeville, John, Sir.; Jean, d&#39;Outremeuse, 1338-ca. 1399. </td>
+	  <td style="text-align:right;"> 1677 </td>
+	  <td style="text-align:right;"> 47299 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A52346 </td>
+	  <td style="text-align:left;"> Nieuhof, Johannes, 1618-1672.; Goyer, Pieter de.; Keizer, Jacob de.; Kircher, Athanasius, 1602-1680. China monumentis. Selections. English.; Ogilby, John, 1600-1676.; Schall von Bell, Johann Adam, 1592?-1666.; Nederlandsche Oost-Indische Compagnie. </td>
+	  <td style="text-align:right;"> 1673 </td>
+	  <td style="text-align:right;"> 233467 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A52618 </td>
+	  <td style="text-align:left;"> Narbrough, John, Sir, 1640-1688.; Tasman, Abel Janszoon, 1603?-1659.; Wood, John, Captain.; Martens, Friedrich, 1635-1699.; Robinson, Tancred, Sir, d. 1748. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 117309 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A53237 </td>
+	  <td style="text-align:left;"> Ogilby, John, 1600-1676. </td>
+	  <td style="text-align:right;"> 1673 </td>
+	  <td style="text-align:right;"> 221 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A53238 </td>
+	  <td style="text-align:left;"> Ogilby, John, 1600-1676. </td>
+	  <td style="text-align:right;"> 1673 </td>
+	  <td style="text-align:right;"> 519 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A53252 </td>
+	  <td style="text-align:left;"> Okeley, William.; Deane, James. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 31392 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A53322 </td>
+	  <td style="text-align:left;"> Olearius, Adam, 1603-1671.; Mandelslo, Johann Albrecht von, 1616-1644.; Davies, John, 1625-1693. </td>
+	  <td style="text-align:right;"> 1669 </td>
+	  <td style="text-align:right;"> 1065108 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A54140 </td>
+	  <td style="text-align:left;"> Penn, William, 1644-1718. </td>
+	  <td style="text-align:right;"> 1685 </td>
+	  <td style="text-align:right;"> 6549 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A54152 </td>
+	  <td style="text-align:left;"> Penn, William, 1644-1718. </td>
+	  <td style="text-align:right;"> 1686 </td>
+	  <td style="text-align:right;"> 4437 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A54171 </td>
+	  <td style="text-align:left;"> Penn, William, 1644-1718. </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 9307 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A54610 </td>
+	  <td style="text-align:left;"> Petty, William, Sir, 1623-1687. </td>
+	  <td style="text-align:right;"> 1686 </td>
+	  <td style="text-align:right;"> 2541 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A54677 </td>
+	  <td style="text-align:left;"> Palafox y Mendoza, Juan de, 1600-1659. </td>
+	  <td style="text-align:right;"> 1671 </td>
+	  <td style="text-align:right;"> 103773 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A55410 </td>
+	  <td style="text-align:left;"> Poor Robin.; Winstanley, William, 1628?-1698. </td>
+	  <td style="text-align:right;"> 1666 </td>
+	  <td style="text-align:right;"> 11051 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A55772 </td>
+	  <td style="text-align:left;"> Price, John, Sir, 1502?-1555.; Caradoc, of Llancarvan, d. 1147? Historie of Cambria.; Ellis, Thomas, 1625-1673.; Llwyd, Humphrey, 1527-1568.; Powell, David, 1552?-1598.; Vaughan, Robert, 1592-1667. </td>
+	  <td style="text-align:right;"> 1663 </td>
+	  <td style="text-align:right;"> 53228 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A57454 </td>
+	  <td style="text-align:left;"> Robinson, John, 1650-1723. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 23775 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A57484 </td>
+	  <td style="text-align:left;"> Rochefort, César de, b. 1605.; Davies, John, 1625-1693.; Breton, Raymond, 1609-1679. </td>
+	  <td style="text-align:right;"> 1666 </td>
+	  <td style="text-align:right;"> 170275 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A58159 </td>
+	  <td style="text-align:left;"> Ray, John, 1627-1705.; Rauwolf, Leonhard, ca. 1540-1596. Seer aanmerkelyke reysen na en door Syrien t́ Joodsche Land, Arabien, Mesopotamien, Babylonien, Assyrien, Armenien, &amp;c. in t́ Jaar 1573 en vervolgens gedaan. English.; Staphorst, Nicolaus, 1679-1731.; Belon, Pierre, 1517?-1564. </td>
+	  <td style="text-align:right;"> 1693 </td>
+	  <td style="text-align:right;"> 195865 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A58175 </td>
+	  <td style="text-align:left;"> Ray, John, 1627-1705.; Willughby, Francis, 1635-1672. Catalogus stirpium in exteris regionibus. </td>
+	  <td style="text-align:right;"> 1673 </td>
+	  <td style="text-align:right;"> 383444 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A58992 </td>
+	  <td style="text-align:left;"> G. S.; Fuller, Thomas, 1608-1661. History of the worthies of England. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 184191 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A59617 </td>
+	  <td style="text-align:left;"> Sheeres, Henry, Sir, d. 1710. </td>
+	  <td style="text-align:right;"> 1680 </td>
+	  <td style="text-align:right;"> 7926 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60180 </td>
+	  <td style="text-align:left;"> Sibbald, Robert, Sir, 1641-1722. </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 5261 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60186 </td>
+	  <td style="text-align:left;"> Sibbald, Robert, Sir, 1641-1722. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 340206 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60373 </td>
+	  <td style="text-align:left;"> Slezer, John, d. 1714.; Sibbald, Robert, Sir, 1641-1722.; Trenchard, John, Sir, 1640-1695. </td>
+	  <td style="text-align:right;"> 1693 </td>
+	  <td style="text-align:right;"> 15150 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60466 </td>
+	  <td style="text-align:left;"> Smith, John, Captain, lieutenant under Col. Rainsborough. </td>
+	  <td style="text-align:right;"> 1661 </td>
+	  <td style="text-align:right;"> 6492 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60582 </td>
+	  <td style="text-align:left;"> Smith, Thomas, 1638-1710. </td>
+	  <td style="text-align:right;"> 1678 </td>
+	  <td style="text-align:right;"> 57247 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A60917 </td>
+	  <td style="text-align:left;"> King, William, 1663-1712.; Sorbière, Samuel, 1615-1670. Relation d&#39;un voyage en Angleterre. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 7002 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A61047 </td>
+	  <td style="text-align:left;"> Speed, John, 1552?-1629. </td>
+	  <td style="text-align:right;"> 1676 </td>
+	  <td style="text-align:right;"> 372758 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A61161 </td>
+	  <td style="text-align:left;"> Sprat, Thomas, 1635-1713.; Wren, Christopher, Sir, 1632-1723. </td>
+	  <td style="text-align:right;"> 1665 </td>
+	  <td style="text-align:right;"> 24823 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A61855 </td>
+	  <td style="text-align:left;"> Struys, Jan Janszoon, d. 1694.; Morrison, John, 17th cent.; Butler, David, Captain. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 174182 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A62166 </td>
+	  <td style="text-align:left;"> Sandys, George, 1578-1644. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 186141 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A62355 </td>
+	  <td style="text-align:left;"> Schottus, Franciscus, 1548-1622.; Warcupp, Edmund. </td>
+	  <td style="text-align:right;"> 1660 </td>
+	  <td style="text-align:right;"> 169267 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A62650 </td>
+	  <td style="text-align:left;"> Timberlake, Henry, d. 1626.; Brett, Samuel.; R. B., 1632?-1725? Journey to Jerusalem.; T. B. </td>
+	  <td style="text-align:right;"> 1692 </td>
+	  <td style="text-align:right;"> 48181 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63248 </td>
+	  <td style="text-align:left;"> Ward, Edward, 1667-1731. </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 8851 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63407 </td>
+	  <td style="text-align:left;"> Tavernier, Jean-Baptiste, 1605-1689.; Everard, Edmund. </td>
+	  <td style="text-align:right;"> 1680 </td>
+	  <td style="text-align:right;"> 77355 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63414 </td>
+	  <td style="text-align:left;"> Tavernier, Jean-Baptiste, 1605-1689.; Phillips, John, 1631-1706.; Oldenburg, Henry, 1615?-1677, attributed name.; Everard, Edmund, attributed name. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 1272242 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63439 </td>
+	  <td style="text-align:left;"> Tavernier, Jean-Baptiste, 1605-1689.; Phillips, John, 1631-1706.; Cox, Daniel, Dr. </td>
+	  <td style="text-align:right;"> 1677 </td>
+	  <td style="text-align:right;"> 855756 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63791 </td>
+	  <td style="text-align:left;"> Tryon, Thomas, 1634-1703. </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 35103 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A64175 </td>
+	  <td style="text-align:left;"> Taylor, John, 1580-1653. </td>
+	  <td style="text-align:right;"> 1650 </td>
+	  <td style="text-align:right;"> 4529 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A65012 </td>
+	  <td style="text-align:left;"> Della Valle, Pietro, 1586-1652.; Roe, Thomas, Sir, 1581?-1644.; Havers, G. (George) </td>
+	  <td style="text-align:right;"> 1665 </td>
+	  <td style="text-align:right;"> 248489 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A65019 </td>
+	  <td style="text-align:left;"> Della Valle, Pietro, 1586-1652.; Havers, G. (George); Roe, Thomas, Sir, 1581?-1644.; Terry, Edward, 1590-1660. Relation of Sir Thomas Roe&#39;s voyage. </td>
+	  <td style="text-align:right;"> 1665 </td>
+	  <td style="text-align:right;"> 248810 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A65182 </td>
+	  <td style="text-align:left;"> Acuña, Cristóbal de, b. 1597. Nuevo descubrimiento del gran rio de las Amazonas. English.; Acarete, du Biscay, 17th cent. Relation des voyages dans la rivière de la Plate. English.; Grillet, Jean, 1624-1677. Journal du voyage qu&#39;on fait les Per̀es Jean Grillet et François Bećhamel ... dans la Goyane l&#39;an 1674. English.; Béchamel, François, 1637-1676. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 151148 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A66356 </td>
+	  <td style="text-align:left;"> Williams, Edward, fl. 1650.; Ferrar, John, d. 1657.; Goddard, John, fl. 1645-1671. </td>
+	  <td style="text-align:right;"> 1650 </td>
+	  <td style="text-align:right;"> 108610 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A66359 </td>
+	  <td style="text-align:left;"> Williams, Edward, fl. 1650.; Ferrar, John, d. 1657. </td>
+	  <td style="text-align:right;"> 1650 </td>
+	  <td style="text-align:right;"> 23047 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A66798 </td>
+	  <td style="text-align:left;"> Bon, Ottaviano, 1552-1623.; Withers, Robert.; Greaves, John, 1602-1652. </td>
+	  <td style="text-align:right;"> 1653 </td>
+	  <td style="text-align:right;"> 39748 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A67509 </td>
+	  <td style="text-align:left;"> Ward, Edward, 1667-1731.; Cleveland, John, 1613-1658. Rebel Scot. aut </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 7475 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A67527 </td>
+	  <td style="text-align:left;"> Ward, Edward, 1667-1731. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 6355 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A67529 </td>
+	  <td style="text-align:left;"> Ward, Edward, 1667-1731. </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 3911 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A69788 </td>
+	  <td style="text-align:left;"> Connor, Bernard, 1666?-1698.; Savage, John, 1673-1747. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 196790 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A69789 </td>
+	  <td style="text-align:left;"> Connor, Bernard, 1666?-1698.; Savage, John, 1673-1747. </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 96543 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A69794 </td>
+	  <td style="text-align:left;"> English gentleman.; Carr, William, 17th cent. </td>
+	  <td style="text-align:right;"> 1691 </td>
+	  <td style="text-align:right;"> 83970 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A69885 </td>
+	  <td style="text-align:left;"> Dunstar, Mr. (Samuel), 1675-1754. </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 23543 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A70100 </td>
+	  <td style="text-align:left;"> Fer, Nicolas de, 1646-1720. </td>
+	  <td style="text-align:right;"> 1693 </td>
+	  <td style="text-align:right;"> 138044 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A70163 </td>
+	  <td style="text-align:left;"> Gerbier, Balthazar, Sir, 1592?-1667. </td>
+	  <td style="text-align:right;"> 1660 </td>
+	  <td style="text-align:right;"> 9188 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A70258 </td>
+	  <td style="text-align:left;"> G. H.; G. H. (G. Hussey); G. H. (G. Hooker) </td>
+	  <td style="text-align:right;"> 1670 </td>
+	  <td style="text-align:right;"> 30026 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A70800 </td>
+	  <td style="text-align:left;"> Pidou de Saint-Olon, Monsieur (François), 1646-1720.; Motteux, Peter Anthony, 1660-1718. </td>
+	  <td style="text-align:right;"> 1695 </td>
+	  <td style="text-align:right;"> 33477 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A85806 </td>
+	  <td style="text-align:left;"> Gardyner, George. </td>
+	  <td style="text-align:right;"> 1651 </td>
+	  <td style="text-align:right;"> 25223 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A86321 </td>
+	  <td style="text-align:left;"> Hickeringill, Edmund, 1631-1708. </td>
+	  <td style="text-align:right;"> 1661 </td>
+	  <td style="text-align:right;"> 11268 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A88898 </td>
+	  <td style="text-align:left;"> Leigh, Edward, 1602-1671. </td>
+	  <td style="text-align:right;"> 1659 </td>
+	  <td style="text-align:right;"> 40201 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A95658 </td>
+	  <td style="text-align:left;"> Terry, Edward, 1590-1660. </td>
+	  <td style="text-align:right;"> 1655 </td>
+	  <td style="text-align:right;"> 131645 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B02364 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1685 </td>
+	  <td style="text-align:right;"> 756 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05298 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council. </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 524 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05464 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1694-1702 : William II) </td>
+	  <td style="text-align:right;"> 1697 </td>
+	  <td style="text-align:right;"> 519 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05558 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1649-1685 : Charles II) </td>
+	  <td style="text-align:right;"> 1684 </td>
+	  <td style="text-align:right;"> 394 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05569 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1689-1694 : William and Mary) </td>
+	  <td style="text-align:right;"> 1689 </td>
+	  <td style="text-align:right;"> 213 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05570 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1689-1694 : William and Mary) </td>
+	  <td style="text-align:right;"> 1694 </td>
+	  <td style="text-align:right;"> 729 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05571 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1694-1702 : William II) </td>
+	  <td style="text-align:right;"> 1695 </td>
+	  <td style="text-align:right;"> 521 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05592 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1694-1702 : William II) </td>
+	  <td style="text-align:right;"> 1698 </td>
+	  <td style="text-align:right;"> 318 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05692 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1660-1685 : Charles II) </td>
+	  <td style="text-align:right;"> 1683 </td>
+	  <td style="text-align:right;"> 852 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> B05720 </td>
+	  <td style="text-align:left;"> Scotland. Privy Council.; Scotland. Sovereign (1649-1685 : Charles II) </td>
+	  <td style="text-align:right;"> 1678 </td>
+	  <td style="text-align:right;"> 454 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N00310 </td>
+	  <td style="text-align:left;"> Budd, Thomas, d. 1698. </td>
+	  <td style="text-align:right;"> 1685 </td>
+	  <td style="text-align:right;"> 12978 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N00716 </td>
+	  <td style="text-align:left;"> Dickinson, Jonathan, 1663-1722. </td>
+	  <td style="text-align:right;"> 1699 </td>
+	  <td style="text-align:right;"> 33321 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29631 </td>
+	  <td style="text-align:left;"> Brome, James, d. 1719. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 186539 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A29768 </td>
+	  <td style="text-align:left;"> Brown, Thomas, 1663-1704. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 28086 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A30142 </td>
+	  <td style="text-align:left;"> Balfour, Andrew, Sir, 1630-1694. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 51984 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A35221 </td>
+	  <td style="text-align:left;"> R. B., 1632?-1725? </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 60459 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A38791 </td>
+	  <td style="text-align:left;"> Evelyn, John, 1620-1706. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 6332 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A40482 </td>
+	  <td style="text-align:left;"> Frick, Christoph, b. 1659.; Schweitzer, Christoph. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 117480 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A63652 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 3817 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A67329 </td>
+	  <td style="text-align:left;"> Wallace, James, d. 1688.; Sibbald, Robert, Sir, 1641-1722. Essay concerning the Thule of the ancients. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 32178 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> A67524 </td>
+	  <td style="text-align:left;"> Ward, Edward, 1667-1731. </td>
+	  <td style="text-align:right;"> 1700 </td>
+	  <td style="text-align:right;"> 10953 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N02853 </td>
+	  <td style="text-align:left;"> Cooke, Ebenezer, ca. 1667-ca. 1732.; Cooke, Ebenezer, ca. 1667-ca. 1732. Sotweed factor, or voiage to Maryland. </td>
+	  <td style="text-align:right;"> 1731 </td>
+	  <td style="text-align:right;"> 12461 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03643 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1740 </td>
+	  <td style="text-align:right;"> 126230 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03776 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1740 </td>
+	  <td style="text-align:right;"> 12937 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03777 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1740 </td>
+	  <td style="text-align:right;"> 11174 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03778 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770.; Wesley, Charles, 1707-1788. </td>
+	  <td style="text-align:right;"> 1740 </td>
+	  <td style="text-align:right;"> 103362 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03780 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1740 </td>
+	  <td style="text-align:right;"> 19719 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03932 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1741 </td>
+	  <td style="text-align:right;"> 26042 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03934 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1741 </td>
+	  <td style="text-align:right;"> 25704 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03935 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1741 </td>
+	  <td style="text-align:right;"> 12470 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03936 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1741 </td>
+	  <td style="text-align:right;"> 12618 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N03937 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1741 </td>
+	  <td style="text-align:right;"> 14137 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N04608 </td>
+	  <td style="text-align:left;"> Gentleman.; Charlevoix, Pierre François Xavier de, 1682-1761. </td>
+	  <td style="text-align:right;"> 1746 </td>
+	  <td style="text-align:right;"> 8736 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N05002 </td>
+	  <td style="text-align:left;"> Whitefield, George, 1714-1770. </td>
+	  <td style="text-align:right;"> 1748 </td>
+	  <td style="text-align:right;"> 1006 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N05057 </td>
+	  <td style="text-align:left;"> Little, Otis, 1712-1754. </td>
+	  <td style="text-align:right;"> 1749 </td>
+	  <td style="text-align:right;"> 13294 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N05268 </td>
+	  <td style="text-align:left;"> Dickinson, Jonathan, 1663-1722. </td>
+	  <td style="text-align:right;"> 1751 </td>
+	  <td style="text-align:right;"> 32702 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N05835 </td>
+	  <td style="text-align:left;"> Evans, Lewis, 1700?-1756.; Evans, Lewis, 1700?-1756, ill.; Turner, James, d. 1759, engraver.; Evans, Lewis, 1700?-1756. General map of the middle British colonies in America. </td>
+	  <td style="text-align:right;"> 1755 </td>
+	  <td style="text-align:right;"> 19517 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N06192 </td>
+	  <td style="text-align:left;"> Bulkeley, John.; Cummins, John, carpenter of H.M.S. Wager.; Denny, William, b. 1718, dedicatee.; Vernon, Edward, 1684-1757, dedicatee. </td>
+	  <td style="text-align:right;"> 1757 </td>
+	  <td style="text-align:right;"> 66713 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N06398 </td>
+	  <td style="text-align:left;"> Eastburn, Robert, 1710-1778.; Tennent, Gilbert, 1703-1764. </td>
+	  <td style="text-align:right;"> 1758 </td>
+	  <td style="text-align:right;"> 10446 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N07119 </td>
+	  <td style="text-align:left;"> Benezet, Anthony, 1713-1784.; Wallace, George, 1727-1805.; Philmore, J. Two dialogues on the man-trade. Selections. </td>
+	  <td style="text-align:right;"> 1762 </td>
+	  <td style="text-align:right;"> 13886 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N08884 </td>
+	  <td style="text-align:left;"> Goldsmith, Oliver, 1728-1774.; Goldsmith, Henry, dedicatee. </td>
+	  <td style="text-align:right;"> 1768 </td>
+	  <td style="text-align:right;"> 60832 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N09090 </td>
+	  <td style="text-align:left;"> Clúny, Alexander. </td>
+	  <td style="text-align:right;"> 1770 </td>
+	  <td style="text-align:right;"> 25577 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N10458 </td>
+	  <td style="text-align:left;"> Duché, Jacob, 1738-1798.; Hamilton, James, 1710-1783, dedicatee. </td>
+	  <td style="text-align:right;"> 1774 </td>
+	  <td style="text-align:right;"> 29738 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N10511 </td>
+	  <td style="text-align:left;"> Hawkesworth, John, 1715?-1773.; Revere, Paul, 1735-1818, engraver.; Romans, Bernard, ca. 1720-ca. 1784, engraver. </td>
+	  <td style="text-align:right;"> 1774 </td>
+	  <td style="text-align:right;"> 530408 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N11419 </td>
+	  <td style="text-align:left;"> Romans, Bernard, ca. 1720-ca. 1784.; Brown, William.; Ellis, John, ca. 1710-1776, dedicatee.; Romans, Bernard, ca. 1720-ca. 1784, engraver. </td>
+	  <td style="text-align:right;"> 1775 </td>
+	  <td style="text-align:right;"> 129769 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N12544 </td>
+	  <td style="text-align:left;"> Hume, David, 1711-1776.; Smith, Adam, 1723-1790.; Strahan, William, 1715-1785.; Poivre, Pierre, 1719-1786. Travels of a philosopher. </td>
+	  <td style="text-align:right;"> 1778 </td>
+	  <td style="text-align:right;"> 55745 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N13310 </td>
+	  <td style="text-align:left;"> McNutt, Alexander, 1725?-1811. </td>
+	  <td style="text-align:right;"> 1780 </td>
+	  <td style="text-align:right;"> 5638 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14243 </td>
+	  <td style="text-align:left;"> Moore, John, 1729-1802.; Freneau, Philip Morin, 1752-1832.; Hamilton, Douglas Hamilton, Duke of, 1756-1799, dedicatee. </td>
+	  <td style="text-align:right;"> 1783 </td>
+	  <td style="text-align:right;"> 570018 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14342 </td>
+	  <td style="text-align:left;"> Robin, abbé, 1750-1794.; Freneau, Philip Morin, 1752-1832, tr.; Berkeley, George, 1685-1753. Verses on the prospect of planting arts and learning in America. </td>
+	  <td style="text-align:right;"> 1783 </td>
+	  <td style="text-align:right;"> 53611 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14479 </td>
+	  <td style="text-align:left;"> Belknap, Jeremy, 1744-1798. </td>
+	  <td style="text-align:right;"> 1784 </td>
+	  <td style="text-align:right;"> 112539 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14512 </td>
+	  <td style="text-align:left;"> Carver, Jonathan, 1710-1780.; Banks, Joseph, Sir, 1743-1820, dedicatee. </td>
+	  <td style="text-align:right;"> 1784 </td>
+	  <td style="text-align:right;"> 99904 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14564 </td>
+	  <td style="text-align:left;"> Filson, John, 1753?-1788.; Boone, Daniel, 1734-1820. Adventures of Col. Daniel Boon.; Pursell, Henry D., engraver. </td>
+	  <td style="text-align:right;"> 1784 </td>
+	  <td style="text-align:right;"> 23342 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14613 </td>
+	  <td style="text-align:left;"> Hutchins, Thomas, 1730-1789. </td>
+	  <td style="text-align:right;"> 1784 </td>
+	  <td style="text-align:right;"> 31686 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N14937 </td>
+	  <td style="text-align:left;"> Brockway, Thomas, 1745-1807. </td>
+	  <td style="text-align:right;"> 1785 </td>
+	  <td style="text-align:right;"> 11179 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N15928 </td>
+	  <td style="text-align:left;"> Freneau, Philip Morin, 1752-1832. </td>
+	  <td style="text-align:right;"> 1787 </td>
+	  <td style="text-align:right;"> 7696 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N15960 </td>
+	  <td style="text-align:left;"> Hutchins, Thomas, 1730-1789.; Hutchins, Thomas, 1730-1789, ill.; Norman, John, ca. 1748-1817, engraver.; Kennedy, Patrick. Mr. Patrick Kennedy&#39;s journal of an expedition ... </td>
+	  <td style="text-align:right;"> 1787 </td>
+	  <td style="text-align:right;"> 13953 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N15973 </td>
+	  <td style="text-align:left;"> Kolb, Peter, 1675-1726.; Le Comte, Louis, 1655-1728.; Wolf. </td>
+	  <td style="text-align:right;"> 1787 </td>
+	  <td style="text-align:right;"> 31657 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N16346 </td>
+	  <td style="text-align:left;"> Brissot de Warville, J.-P. (Jacques-Pierre), 1754-1793. </td>
+	  <td style="text-align:right;"> 1788 </td>
+	  <td style="text-align:right;"> 32015 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N16879 </td>
+	  <td style="text-align:left;"> Carver, Jonathan, 1710-1780.; Banks, Joseph, Sir, 1743-1820, dedicatee. </td>
+	  <td style="text-align:right;"> 1789 </td>
+	  <td style="text-align:right;"> 99486 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N17326 </td>
+	  <td style="text-align:left;"> Burges, Bartholomew.; Lamb, John, 1735-1800, dedicatee.; Rollinson, William, 1762-1842, engraver.; Shepherd, Edward, ill.; Clepham, ill. </td>
+	  <td style="text-align:right;"> 1790 </td>
+	  <td style="text-align:right;"> 55123 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N17788 </td>
+	  <td style="text-align:left;"> Watson, Elkanah, 1758-1842. </td>
+	  <td style="text-align:right;"> 1790 </td>
+	  <td style="text-align:right;"> 24091 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N17835 </td>
+	  <td style="text-align:left;"> Franklin, William Temple, 1760-1823.; Morris, Robert, 1734-1806. </td>
+	  <td style="text-align:right;"> 1791 </td>
+	  <td style="text-align:right;"> 11435 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N17871 </td>
+	  <td style="text-align:left;"> Bartram, William, 1739-1823.; Bartram, William, 1739-1823, ill.; Trenchard, James, b. 1747, engraver.; Bartram, William, 1739-1823. Account of the persons, manners, customs and government of the Muscogulges ... </td>
+	  <td style="text-align:right;"> 1791 </td>
+	  <td style="text-align:right;"> 304152 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N17876 </td>
+	  <td style="text-align:left;"> Belknap, Jeremy, 1744-1798.; Belknap, Jeremy, 1744-1798, cartographer.; Hill, Samuel, 1766?-1804, engraver. </td>
+	  <td style="text-align:right;"> 1791 </td>
+	  <td style="text-align:right;"> 99782 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N18558 </td>
+	  <td style="text-align:left;"> Belknap, Jeremy, 1744-1798. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 112637 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N18559 </td>
+	  <td style="text-align:left;"> Belknap, Jeremy, 1744-1798. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 104915 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N18607 </td>
+	  <td style="text-align:left;"> Brissot de Warville, J.-P. (Jacques-Pierre), 1754-1793.; Barlow, Joel, 1754-1812, tr. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 89381 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N18610 </td>
+	  <td style="text-align:left;"> Brydone, P. (Patrick), 1743-1818.; Beckford, William, d. 1799. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 112400 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N18986 </td>
+	  <td style="text-align:left;"> Pope, John, 1749-1802. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 21096 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N19488 </td>
+	  <td style="text-align:left;"> Dickinson, Jonathan, 1663-1722. </td>
+	  <td style="text-align:right;"> 1792 </td>
+	  <td style="text-align:right;"> 33265 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N19547 </td>
+	  <td style="text-align:left;"> Forrest, Michael. </td>
+	  <td style="text-align:right;"> 1793 </td>
+	  <td style="text-align:right;"> 9177 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N19694 </td>
+	  <td style="text-align:left;"> Bingham, William, 1752-1804.; Lincoln, Benjamin, 1733-1810. </td>
+	  <td style="text-align:right;"> 1793 </td>
+	  <td style="text-align:right;"> 10061 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N19972 </td>
+	  <td style="text-align:left;"> Seaman, Valentine, 1770-1817.; Livingston, Robert R., 1746-1813, dedicatee. </td>
+	  <td style="text-align:right;"> 1793 </td>
+	  <td style="text-align:right;"> 8035 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N20681 </td>
+	  <td style="text-align:left;"> Jefferson, Thomas, 1743-1826.; Lewis, Samuel, b. 1757?, ill.; Smither, James, 1741-1797, engraver. </td>
+	  <td style="text-align:right;"> 1794 </td>
+	  <td style="text-align:right;"> 78523 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N20724 </td>
+	  <td style="text-align:left;"> Lempriere, William, d. 1834.; Kent and Strathern, Edward Augustus, duke of, 1767-1820, dedicatee. </td>
+	  <td style="text-align:right;"> 1794 </td>
+	  <td style="text-align:right;"> 90302 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N20810 </td>
+	  <td style="text-align:left;"> Montagu, Edward Wortley, 1713-1776. </td>
+	  <td style="text-align:right;"> 1794 </td>
+	  <td style="text-align:right;"> 80778 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N21543 </td>
+	  <td style="text-align:left;"> Massachusetts Society for the Aid of Immigrants.; Russell, Thomas, 1740-1796. </td>
+	  <td style="text-align:right;"> 1795 </td>
+	  <td style="text-align:right;"> 2034 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N21828 </td>
+	  <td style="text-align:left;"> Georgia Mississippi Company.; Hutchins, Thomas, 1730-1789. Historical narrative and topographical description of Louisiana and West Florida. Selections.; Georgia. Act supplementary to an act. </td>
+	  <td style="text-align:right;"> 1795 </td>
+	  <td style="text-align:right;"> 10814 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N21976 </td>
+	  <td style="text-align:left;"> Lendrum, John. </td>
+	  <td style="text-align:right;"> 1795 </td>
+	  <td style="text-align:right;"> 466278 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N22161 </td>
+	  <td style="text-align:left;"> Ogden, John Cosens, 1751-1800. </td>
+	  <td style="text-align:right;"> 1795 </td>
+	  <td style="text-align:right;"> 5659 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N22725 </td>
+	  <td style="text-align:left;"> Barrington, George, 1755-1804. </td>
+	  <td style="text-align:right;"> 1796 </td>
+	  <td style="text-align:right;"> 37662 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N22949 </td>
+	  <td style="text-align:left;"> R. B., 1632?-1725?; Brett, Samuel. True relation of the proceedings of the great council. </td>
+	  <td style="text-align:right;"> 1796 </td>
+	  <td style="text-align:right;"> 35212 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N23580 </td>
+	  <td style="text-align:left;"> Smith, Daniel, 1748-1818. </td>
+	  <td style="text-align:right;"> 1796 </td>
+	  <td style="text-align:right;"> 7299 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N23903 </td>
+	  <td style="text-align:left;"> Western Inland Lock Navigation Company.; Weston, William, ca. 1752-1833.; Schuyler, Philip John, 1733-1804.; New York (State). Legislature.; Northern Inland Lock Navigation Company. </td>
+	  <td style="text-align:right;"> 1796 </td>
+	  <td style="text-align:right;"> 7831 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N23927 </td>
+	  <td style="text-align:left;"> Wollstonecraft, Mary, 1759-1797. </td>
+	  <td style="text-align:right;"> 1796 </td>
+	  <td style="text-align:right;"> 50942 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N23960 </td>
+	  <td style="text-align:left;"> Adams, John, 1750?-1814, ed. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 291042 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24100 </td>
+	  <td style="text-align:left;"> Brissot de Warville, J.-P. (Jacques-Pierre), 1754-1793. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 87809 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24134 </td>
+	  <td style="text-align:left;"> Campbell, Donald, 1751-1804.; Mathews, Richard. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 127179 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24371 </td>
+	  <td style="text-align:left;"> Hawkins, Joseph, b. 1772. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 29634 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24562 </td>
+	  <td style="text-align:left;"> Morse, Jedidiah, 1761-1826.; Hamilton, Alexander, 1757-1804.; Callender, Benjamin, 1773-1856, engraver.; Morse, Jedidiah, 1761-1826. American gazetteer. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 11111 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24679 </td>
+	  <td style="text-align:left;"> Poivre, Pierre, 1719-1786. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 21147 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N24799 </td>
+	  <td style="text-align:left;"> Stevens, James Wilson.; Barlow, Joel, 1754-1812, dedicatee. </td>
+	  <td style="text-align:right;"> 1797 </td>
+	  <td style="text-align:right;"> 83217 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N25272 </td>
+	  <td style="text-align:left;"> Campbell, Donald, 1751-1804.; Tanner, Benjamin, 1775-1848, engraver.; Mathews, Richard.; Campbell, Donald, 1751-1804. Journey over land to India. </td>
+	  <td style="text-align:right;"> 1798 </td>
+	  <td style="text-align:right;"> 127481 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N25428 </td>
+	  <td style="text-align:left;"> Foss, John, d. 1800.; Humphreys, David, 1752-1818. Poem on the happiness of America. </td>
+	  <td style="text-align:right;"> 1798 </td>
+	  <td style="text-align:right;"> 17416 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N25429 </td>
+	  <td style="text-align:left;"> Foss, John, d. 1800.; Paine, Robert Treat, 1773-1811.; Citizen of Newburyport. Algerine slaves.; Algeria. Treaties, etc. United States. 1795 Sept. 5. </td>
+	  <td style="text-align:right;"> 1798 </td>
+	  <td style="text-align:right;"> 89904 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N25556 </td>
+	  <td style="text-align:left;"> Johnson, Ebenezer. </td>
+	  <td style="text-align:right;"> 1798 </td>
+	  <td style="text-align:right;"> 3044 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N26346 </td>
+	  <td style="text-align:left;"> Willock, John, mariner.; Clarke, Thomas, engraver. </td>
+	  <td style="text-align:right;"> 1798 </td>
+	  <td style="text-align:right;"> 72536 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N31507 </td>
+	  <td style="text-align:left;"> Montagu, Mary Wortley, Lady, 1689-1762.; Astell, Mary, 1666-1731, ed. </td>
+	  <td style="text-align:right;"> 1766 </td>
+	  <td style="text-align:right;"> 61540 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N34584 </td>
+	  <td style="text-align:left;"> NA </td>
+	  <td style="text-align:right;"> 1788 </td>
+	  <td style="text-align:right;"> 3704 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N34605 </td>
+	  <td style="text-align:left;"> McAlpine, J. (John). </td>
+	  <td style="text-align:right;"> 1788 </td>
+	  <td style="text-align:right;"> 23791 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N26739 </td>
+	  <td style="text-align:left;"> Hanway, Jonas, 1712-1786. </td>
+	  <td style="text-align:right;"> 1806 </td>
+	  <td style="text-align:right;"> 25690 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N28620 </td>
+	  <td style="text-align:left;"> Ogden, John Cosens, 1751-1800. </td>
+	  <td style="text-align:right;"> 1800 </td>
+	  <td style="text-align:right;"> 37944 </td>
+	 </tr>
+	 <tr>
+	  <td style="text-align:left;"> N28622 </td>
+	  <td style="text-align:left;"> Ogden, John Cosens, 1751-1800. </td>
+	  <td style="text-align:right;"> 1800 </td>
+	  <td style="text-align:right;"> 21413 </td>
+	 </tr>
+   </tbody>
+   </table>
+</div>
+<script>
+   $(document).ready( function () {
+    $('#overview_table').DataTable();
+} );
+</script>
 
 
 </section>
@@ -136,6 +2519,8 @@ body {
 	  });
 	});
 	</script>
+
+
 
 </body>
 

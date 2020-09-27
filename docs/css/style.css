@@ -18,6 +18,8 @@
 	 font-family: 'Roboto', sans-serif;
 	 font-weight: 400;
 	 position:relative;
+	 margin-left: 60px;
+	 margin-right: 50px;
 	 
    }
 
@@ -168,4 +170,9 @@ li.custom{
 	font-size: 20px;
 	margin-bottom:5px;
 	margin-top: 20px;
+}
+
+table.dataTable {
+	margin-left: 60px !important;
+	margin-right: 50px !important;
 }

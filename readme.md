@@ -13,7 +13,7 @@ The corpus files are distributed as VRT files for the [Corpus Workbench](http://
 
 To encode the VRT files for CWB, you can use the code below. Replace `/corpora/data/` and `/usr/local/share/cwb/registry/` by the paths to your data repository and registry, respectively, and replace `path/to/vrt` by the path to the folder containing the VRT files.
 
-```` bash
+````bash
 cwb-encode -c utf8 -v -x -d /corpora/data/eebotravel -F path/to/vrt -R /usr/local/share/cwb/registry/eebotravel -P lemma -P pos -P norm -P lang -S text:0+id+title+title_short+author+date+publisher+pubPlace -S p -S item -S hi:0+rend -S g:0+ref -S gap:0+reason+resp+extent - S pb:0+facs+rendition -S head -S expan -S div -S group -S front
 
 cwb-makeall -r /usr/local/share/cwb/registry/ eebotravel
